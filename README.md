@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<p align="center">
+ Shubham | Mini Kanban App UI Assessment
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  <a href="https://mini-kanban-app.vercel.app" target="_blank" rel="noreferrer">Deployed Project 🚀</a>
+</h4>
 
-## Available Scripts
+### ✅ Features Implemented
 
-In the project directory, you can run:
+- `Custom Drag & Drop without any third-party library`.
+  - Users can easily drag and drop cards representing tasks or items between columns to indicate their progress or status. This provides a seamless and intuitive way to manage and track the workflow.
+- `App is responsive and performant on mobile/tablet/desktop devices.`
+  - UI component that displays various formatting options for the text editor. It includes buttons for undo and redo actions, font selection, font size adjustment, color picker for text highlighting, options for text alignment (left, center, right) and etc.
+- Kanban App `UI Web App`.
 
-### `yarn start`
+### ⚙️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React, Tailwind CSS, CSS, Javascript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How to Run Locally
 
-### `yarn test`
+Run the below command to clone the repo locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/ShubhamSj07/mini-kanban.git
+```
 
-### `yarn build`
+### To run the project, go to the mini-kanban directory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd mini-kanban
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### To install dependencies run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn install
+yarn start
+```
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### this will run your `REACT` server on <a href="http://localhost:3000">`localhost:3000`</a>
