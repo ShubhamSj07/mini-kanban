@@ -20,3 +20,16 @@ p {
 ::-webkit-scrollbar {
   display: none;
 }
+
+@keyframes tilt-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.tilt-right-animation {
+  animation: tilt-right 0.2s linear forwards;
+}

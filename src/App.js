@@ -1,4 +1,4 @@
-import KanbanBoard from "./components/KanbanBoard";
+import KanbanBoard from "./KanbanBoard";
 import Layout from "./components/Layout";
 
 function App() {
